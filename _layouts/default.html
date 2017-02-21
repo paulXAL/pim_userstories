@@ -8,13 +8,14 @@
   <body>
 
 	  <header>PIM USER STORIES
-	  	{% include nav.html %}
+	  	{% include nav.html navclass='nav-top' %}
 	  </header>
 
 
 	  		{{content}}
 
 	  <footer>
+	  	{% include nav.html navclass='nav-bottom' %}
 	  	<p>XAL Holding GmbH</p>
 	  </footer>
   </body>
